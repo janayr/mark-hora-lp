@@ -22,14 +22,16 @@ export const PhoneMockup = () => {
               <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-sm font-semibold">
                 <Image
                   src={"/favicon.svg"}
-                  alt="Mark Hora"
+                  alt="Mitig Hora"
                   width={0}
                   height={0}
                   className="h-auto w-auto p-1.5"
                 />
               </span>
               <div className="flex-1">
-                <p className="text-sm font-semibold leading-tight">Mark Hora</p>
+                <p className="text-sm font-semibold leading-tight">
+                  Mitig Hora
+                </p>
                 <p className="text-xs text-emerald-50/90">online</p>
               </div>
               <Video className="h-4 w-4 text-white/90" aria-hidden="true" />

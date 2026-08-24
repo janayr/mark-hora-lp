@@ -31,7 +31,7 @@ export default function Hero() {
           <a href="#" className="flex items-center gap-2">
             <Image
               src="/logo-name.svg"
-              alt="Mark Hora"
+              alt="Mitig Hora"
               width={0}
               height={0}
               className="h-auto w-38"

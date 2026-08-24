@@ -13,10 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("https://markhora.com.br")
+  // metadataBase: new URL("https://Mitighora.com.br")
   title: {
-    default: "Mark Hora",
-    template: "%s | Mark Hora",
+    default: "Mitig Hora",
+    template: "%s | Mitig Hora",
   },
   description: "Agendamentos inteligentes pelo WhatsApp.",
   icons: {

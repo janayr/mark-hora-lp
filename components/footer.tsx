@@ -8,7 +8,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Image
               src={"/logo-name.svg"}
-              alt="Mark Hora"
+              alt="Mitig Hora"
               width={0}
               height={0}
               className="h-auto w-38"
@@ -53,7 +53,7 @@ export default function Footer() {
 
       <div className="border-t border-neutral-200">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-neutral-500 md:flex-row">
-          <span>Eamus App Ltda. | CNPJ: 60.617.817/0001-35</span>
+          <span>MITIG ME LTDA. | CNPJ: 56.637.182/0001-60</span>
 
           <span>Feito no Brasil 🇧🇷</span>
         </div>

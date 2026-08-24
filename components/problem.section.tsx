@@ -94,7 +94,7 @@ export default function ProblemSection() {
             <Timeline steps={todaySteps} accent="red" />
           </div>
 
-          {/* Right — Com Mark Hora */}
+          {/* Right — Com Mitig Hora */}
           <div className="rounded-3xl border border-emerald-100 bg-white p-6 shadow-sm ring-1 ring-emerald-50 transition-shadow hover:shadow-md sm:p-8">
             <div className="mb-6 flex items-center gap-3">
               <span className="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
@@ -104,7 +104,7 @@ export default function ProblemSection() {
                 />
               </span>
               <h3 className="text-lg font-semibold tracking-tight text-neutral-900">
-                Com Mark Hora
+                Com Mitig Hora
               </h3>
             </div>
             <Timeline steps={agendaZapSteps} accent="green" />

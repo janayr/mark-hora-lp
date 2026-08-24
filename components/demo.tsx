@@ -30,7 +30,7 @@ export default function Demo() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-balance text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
-            Veja o Mark Hora em ação
+            Veja o Mitig Hora em ação
           </h2>
           <p className="mt-4 text-pretty text-lg leading-relaxed text-muted-foreground">
             Uma conversa simples é o suficiente para agendar um horário.

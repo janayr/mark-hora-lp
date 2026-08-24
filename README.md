@@ -1,4 +1,4 @@
-# Mark Hora – Landing Page
+# Mitig Hora – Landing Page
 
 Landing page desenvolvida com **Next.js**, **React** e **Tailwind CSS**.
 
