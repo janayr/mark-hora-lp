@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3001",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "tsc && next lint && stylelint './**/*.ts(x)?'"
+    "lint": "eslint"
+  },
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "npm i && next build",
+    "lint": "tsc && next lint && stylelint './**/*.ts(x)?'",
+    "conn-prod": "ssh -i 'Eamus.pem' ubuntu@ec2-${npm_config_ip}.amazonaws.com",
+    "deploy-prod": "npm run build && rsync -arvzuc -e \"ssh -i Eamus.pem\" ./out/ ubuntu@ec2-${npm_config_ip}.amazonaws.com:~/eamus/ingress/html"
   },
   "dependencies": {
     "lucide-react": "^1.24.0",
