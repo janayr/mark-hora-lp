@@ -40,7 +40,7 @@ export default function PoliticaDePrivacidadePage() {
             </h2>
             <ul className="list-disc pl-6 space-y-2">
               <li>
-                Dados de identificação: nome, número de telefone/WhatsApp.
+                Dados de identificação: nome, número de telefone/WhatsApp .
               </li>
               <li>
                 Dados de agendamento: datas, horários, serviços solicitados e
